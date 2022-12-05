@@ -37,7 +37,7 @@ fetch("https://reqres.in/api/users", {
   headers: {
     "Content-Type": "application/json" // This is very important, otherwise the POST request will not work
   },
-  body: JSON.stringify({
+  body: JSON.stringify({ // Stringify is very important, otherwise the POST request will not work
     name: "Abhinav Aggarwal"
   })
 })
